@@ -1,13 +1,14 @@
 <!-- diplay the question and coach's answer -->
 <div class="you">
-<h1><%= @question %> </h1><br>
-<%= "- You" %> <br><br>
-</div>
-<div class="coach">
-<h1><%= @coach %> </h1><br>
-<%= "- Your coach" %> <br><br>
+  <h1><%= @question %> </h1><br>
+  <%= "- You" %> <br><br>
 </div>
 
-<div class="btn btn-primary">
-<%= link_to "Ask", ask_path %>
+<div class="coach">
+  <h1><%= @coach %> </h1><br>
+  <%= "- Your coach" %> <br><br>
+</div>
+
+<div class="btn">
+  <%= link_to "Ask", ask_path %>
 </div>

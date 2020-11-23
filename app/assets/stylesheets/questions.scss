@@ -14,5 +14,18 @@ $gray: #F4F4F4;
 
 .h1 {
   font-size: 30px;
-  font-family: Open Sans;
 }
+
+.btn {
+   background-color: blue;
+   color: white;
+   padding: 30px;
+   margin: 30px;
+   text-decoration: none;
+   width: 100px;
+   border-radius: 10px;
+   &:hover {
+     background-color: white;
+     color: black;
+   }
+ }
